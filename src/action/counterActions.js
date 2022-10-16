@@ -13,13 +13,13 @@ export const decrementCount=()=>{
 
 export const incrementByFive=(data)=>{
     return{
-        type:actionTypes.INCREMENTBYFIVE,
+        type:actionTypes.INCREMENT_BY_FIVE,
         payload:data
     }
 }
 export const decrementByFive=(data)=>{
     return{
-        type:actionTypes.DECREMENTBYFIVE,
+        type:actionTypes.DECREMENT_BY_FIVE,
         payload:data
     }
 }
